@@ -1,3 +1,5 @@
+# função trocar_dominio(email_completo, novo_dominio) captura os argumentos digitados e troca o dominio antigo para o dominio novo que deseja (digitado).
+
 def trocar_dominios(email_completo, novo_dominio):
   index = email_completo.index('@')
   novo_email = email_completo[:index] + "@" + novo_dominio
